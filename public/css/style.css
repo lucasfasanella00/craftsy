@@ -1,0 +1,27 @@
+/* Ajustes globales */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Assistant', sans-serif;
+    background-image: url(/images/bg-2.png);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: rgb(239, 76, 39);
+}
+
+button{
+    background-color: rgb(255, 78, 69);
+    border: none;
+}
