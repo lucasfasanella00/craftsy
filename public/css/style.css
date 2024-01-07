@@ -24,4 +24,69 @@ header{
 button{
     background-color: rgb(255, 78, 69);
     border: none;
+    color: white;
+}
+
+p, h1{
+    color: black;
+}
+
+.products{
+    background-color: white;
+}
+
+.tutorials h1{
+    background-color: white;
+}
+
+.list-tutorials{
+    background-color: white;
+}
+
+.list-tutorials li{
+    display: flex;
+}
+
+.adver h1{
+    background-color: white;
+}
+.list-adver{
+    background-color: white;
+}
+
+/* Phone */
+@media (min-width: 320px) {
+    body{
+        margin: 0;
+        width: 100%;
+    }
+    .nav-menu{
+        display: none;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logo{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .burger-menu i{
+        color: white;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .burger-menu{
+        border: solid 0.2px white;
+        margin-right: 20px;
+    }
+    main{
+        width: 90%;
+    }
+    main img{
+        width: 70%;
+    }
 }
