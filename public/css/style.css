@@ -85,8 +85,28 @@ p, h1{
     }
     main{
         width: 90%;
+        margin: auto;
     }
     main img{
         width: 70%;
+    }
+    .products{
+        margin-top: 20px;
+    }
+    .list-products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .list-products li{
+        width: 95%;
+        margin-top: 10px;
+    }
+    .products img{
+        width: 100%;
+    }
+    button{
+        display: none;
     }
 }
